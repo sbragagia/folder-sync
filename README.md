@@ -9,11 +9,21 @@ Clone the repository:
    git clone https://github.com/your-username/folder-sync.git
    cd folder-sync
   ```
-Compile the source code using the provided Makefile:
+### Using Makefile
 
-  ```bash
-  make
-  ```
+To compile the code using the provided Makefile, run the following command to compile the code:
+   ```bash
+   make
+   ```
+After successful compilation, an executable file named `sync_program` will be generated.
+
+### Compiling Without Makefile
+
+If you prefer to compile the code without using the Makefile, you can manually invoke the compiler and linker commands.
+For example:
+   ```bash
+   gcc -o sync_program source_file.c
+   ```
 ## Usage
 
 To synchronize two folders, run the compiled executable with the following command-line arguments:
