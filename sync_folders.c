@@ -9,7 +9,7 @@
 #include <time.h>
 #ifdef _WIN32
 #include <windows.h>
-#define PATH_MAX MAX_PATH
+#define MY_PATH_MAX MAX_PATH
 #else
 #include <limits.h>
 #endif
